@@ -1,6 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
-      /*Icon*/	                      /*Command*/		       /*Update Interval*/	/*Update Signal*/
+      /*Icon*/	                      /*Command*/		  /*Update Interval (in seconds) */	/*Update Signal*/
+	{"",            "bash $HOME/.config/scripts/bar/bar-rss",	            60,		        18},
 	{"",            "bash $HOME/.config/scripts/bar/bar-mpd",	            10,		        10},
 	{"",            "bash $HOME/.config/scripts/bar/bar-volume",	        0,		        11},
 	{"",            "bash $HOME/.config/scripts/bar/bar-battery",	        60,		        12},
